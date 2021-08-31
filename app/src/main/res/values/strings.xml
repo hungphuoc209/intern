@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Call</string>
+    <string name="btnNumber1">1</string>
+    <string name="btnNumber2">2</string>
+    <string name="btnNumber3">3</string>
+    <string name="btnNumber4">4</string>
+    <string name="btnNumber5">5</string>
+    <string name="btnNumber6">6</string>
+    <string name="btnNumber7">7</string>
+    <string name="btnNumber8">8</string>
+    <string name="btnNumber9">9</string>
+    <string name="btnHashTag">#</string>
+    <string name="btnAsterisk">*</string>
+    <string name="btnNumber0">0</string>
+    <string name="Number">Phone Number</string>
+    <string name="btnBackspace">Backspace</string>
+    <string name="btnCall">Call</string>
+
+
+</resources>
