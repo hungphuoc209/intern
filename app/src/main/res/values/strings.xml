@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CapooCat</string>
+    <string name="title">Cat Todo Note</string>
+    <string name="title_gif_list_act">GifListActivity</string>
+    <string name="gif">Select your GIF</string>
+    <string name="add_task_title">Add your task</string>
+    <string name="message">Write the message here</string>
+    <string name="ok">ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="ask_delete">Are you delete all your notes?</string>
+    <string name="delete_all">Delete all your note</string>
+</resources>
