@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="pad_4">4dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_92">92dp</dimen>
+    <dimen name="margin_36">36dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_104">104dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="text_size_20">20dp</dimen>
+    <dimen name="margin_164">164dp</dimen>
+</resources>

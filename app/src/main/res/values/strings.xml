@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">API</string>
+    <string name="description">description</string>
+    <string name="id">Id</string>
+    <string name="year">Year</string>
+    <string name="color">Color</string>
+    <string name="pantonevalue">PantoneValue</string>
+    <string name="name">Name</string>
+    <string name="colon">:</string>
+    <string name="api_success">Call API Success</string>
+    <string name="api_error">Call  API Error</string>
+    <string name="get_api">get api</string>
+    <string name="show">show</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="local">Local</string>
+    <string name="from_api">FromAPI</string>
+    <string name="internet_permission">Internet Permission</string>
+</resources>

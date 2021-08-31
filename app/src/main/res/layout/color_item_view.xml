@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cslColorItemView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/pad_4">
+
+    <ImageView
+        android:id="@+id/imgColor"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="#512DA8"
+        android:contentDescription="@string/description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        app:layout_constraintStart_toStartOf="@+id/tvName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/name"
+        app:layout_constraintStart_toStartOf="@+id/tvYear"
+        app:layout_constraintTop_toBottomOf="@+id/tvId" />
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/year"
+        app:layout_constraintStart_toStartOf="@+id/tvColor"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/color"
+        app:layout_constraintStart_toStartOf="@+id/tvPantoneValue"
+        app:layout_constraintTop_toBottomOf="@+id/tvYear" />
+
+    <TextView
+        android:id="@+id/tvPantoneValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_36"
+        android:text="@string/pantonevalue"
+        app:layout_constraintStart_toEndOf="@+id/tvPantoneValueTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvColor" />
+
+    <TextView
+        android:id="@+id/tvIdTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        app:layout_constraintStart_toStartOf="@+id/tvNameTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPantoneValueTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20"
+        android:text="@string/pantonevalue"
+        app:layout_constraintStart_toEndOf="@+id/imgColor"
+        app:layout_constraintTop_toBottomOf="@+id/ivColorTitle" />
+
+    <TextView
+        android:id="@+id/ivColorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/color"
+        app:layout_constraintStart_toStartOf="@+id/tvPantoneValueTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvYearTitle" />
+
+    <TextView
+        android:id="@+id/tvNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        app:layout_constraintStart_toStartOf="@+id/tvYearTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvIdTitle" />
+
+    <TextView
+        android:id="@+id/tvYearTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/year"
+        app:layout_constraintStart_toStartOf="@+id/ivColorTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameTitle" />
+
+    <TextView
+        android:id="@+id/tvColon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_104"
+        android:text="@string/colon"
+        app:layout_constraintStart_toEndOf="@+id/tvIdTitle"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvColon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colon"
+        app:layout_constraintStart_toStartOf="@+id/tvColon1"
+        app:layout_constraintTop_toBottomOf="@+id/tvColon1" />
+
+    <TextView
+        android:id="@+id/tvColon3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colon"
+        app:layout_constraintStart_toStartOf="@+id/tvColon2"
+        app:layout_constraintTop_toBottomOf="@+id/tvColon2" />
+
+    <TextView
+        android:id="@+id/tvColon4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colon"
+        app:layout_constraintStart_toStartOf="@+id/tvColon3"
+        app:layout_constraintTop_toBottomOf="@+id/tvColon3" />
+
+    <TextView
+        android:id="@+id/tvColon5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/colon"
+        app:layout_constraintStart_toStartOf="@+id/tvColon4"
+        app:layout_constraintTop_toBottomOf="@+id/tvColon4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
