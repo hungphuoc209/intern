@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Thread</string>
+    <string name="set_time">Set Time</string>
+    <string name="btn_count_title">count</string>
+    <string name="btn_download">download</string>
+    <string name="file_name">File Name</string>
+    <string name="link">Link</string>
+    <string name="download_complete">Download completed</string>
+    <string name="description">description</string>
+    <string name="incorrect">Incorrect Link or File name</string>
+    <string name="download">Downloading file . . .</string>
+</resources>

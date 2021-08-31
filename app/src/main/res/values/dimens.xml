@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size">120sp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_64">64dp</dimen>
+    <dimen name="margin_220">220dp</dimen>
+    <dimen name="dimen_200">200dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_104">104dp</dimen>
+    <dimen name="margin_52">52dp</dimen>
+    <dimen name="dimen_300">300dp</dimen>
+    <dimen name="margin_152">152dp</dimen>
+</resources>
